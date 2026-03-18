@@ -21,17 +21,17 @@
 
 ### 組長（`main` branch）
 
-- [v] 把 `index.html` 裡的「第 X 組」改成你們組的實際名稱
-- [v] 修改 `style.css` 裡 `header` 的背景顏色
-- [v] 在這個檔案填入所有組員姓名
-- [v] 最後負責 review 所有 PR 並 merge
+- [x] 把 `index.html` 裡的「第 X 組」改成你們組的實際名稱
+- [x] 修改 `style.css` 裡 `header` 的背景顏色
+- [x] 在這個檔案填入所有組員姓名
+- [x] 最後負責 review 所有 PR 並 merge
 
 ### 組員 A 曹世杰（`feature/member-a` branch）
 
-- [v] 修改 `style.css` 裡 `.message.user` 的 `background` 顏色
-- [v] 在 `index.html` 加上訊息計數顯示（取消那行 comment）
-- [v] 在 `sendMessage()` 函數中加上更新計數的邏輯
-- [v] 開 PR，請組長 review
+- [x] 修改 `style.css` 裡 `.message.user` 的 `background` 顏色
+- [x] 在 `index.html` 加上訊息計數顯示（取消那行 comment）
+- [x] 在 `sendMessage()` 函數中加上更新計數的邏輯
+- [x] 開 PR，請組長 review
 
 ### 組員 B 林楷祐（`feature/member-b` branch）
 
