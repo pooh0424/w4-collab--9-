@@ -76,9 +76,9 @@ git checkout -b feature/member-c   # 組員 C
 
 ## 驗收標準
 
-- [ ] 組長的 GitHub 帳號下有 fork 出來的 repo
-- [ ] 所有組員都有自己的 commit 紀錄
-- [ ] 至少開過一個 PR 並被 merge
-- [ ] 有處理過至少一個 Merge Conflict
-- [ ] `CONTRIBUTORS.md` 全部填完
-- [ ] 用瀏覽器打開 `index.html`，功能正常
+- [x] 組長的 GitHub 帳號下有 fork 出來的 repo
+- [x] 所有組員都有自己的 commit 紀錄
+- [x] 至少開過一個 PR 並被 merge
+- [x] 有處理過至少一個 Merge Conflict
+- [x] `CONTRIBUTORS.md` 全部填完
+- [x] 用瀏覽器打開 `index.html`，功能正常
