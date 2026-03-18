@@ -11,7 +11,7 @@
 | ------ | ------ | ------------------ | ----------------------------- | ---- |
 | 組長   | 呂紹銘 | `main`             | 修改標題 & header 顏色        | ✅   |
 | 組員 A | 曹世杰 | `feature/member-a` | 修改使用者訊息顏色 & 加計數器 | ✅   |
-| 組員 B | 林楷祐 | `feature/member-b` | 修改按鈕樣式 & 加 footer 名單 | ⬜   |
+| 組員 B | 林楷祐 | `feature/member-b` | 修改按鈕樣式 & 加 footer 名單 | ✅   |
 
 狀態：⬜ 未開始 / 🔄 進行中 / ✅ 已完成 / 🔀 PR 已開 / ✔️ 已 Merge
 
@@ -33,12 +33,12 @@
 - [v] 在 `sendMessage()` 函數中加上更新計數的邏輯
 - [v] 開 PR，請組長 review
 
-### 組員 B（`feature/member-b` branch）
+### 組員 B 林楷祐（`feature/member-b` branch）
 
-- [ ] 修改 `.input-area button` 的顏色和 `border-radius`
-- [ ] 在 `index.html` 的 `<footer>` 加入組員名單
-- [ ] 在 `style.css` 加上 footer 的樣式
-- [ ] 開 PR，請組長 review
+- [x] 修改 `.input-area button` 的顏色和 `border-radius`
+- [x] 在 `index.html` 的 `<footer>` 加入組員名單
+- [x] 在 `style.css` 加上 footer 的樣式
+- [x] 開 PR，請組長 review
 
 ### 組員 C（`feature/member-c` branch）
 
