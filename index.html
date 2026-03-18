@@ -12,6 +12,7 @@
       <!-- 組長任務：把這裡改成你們組的名稱 -->
       <h1>🤖 第 X 組的 Chatbot</h1>
       <p class="subtitle">W4 多人協作練習</p>
+      <p id="counter"></p>
     </header>
 
     <!-- 組員 A 任務：在這裡加上訊息計數顯示 -->
@@ -35,6 +36,10 @@
   </div>
 
   <script>
+    var count = 0;
+    const counter = document.getElementById('counter');
+    counter.textContent = `訊息數：${count}`;
+
     function sendMessage() {
       const input = document.getElementById('user-input');
       const chatBox = document.getElementById('chat-box');
@@ -55,6 +60,9 @@
 
       input.value = '';
       chatBox.scrollTop = chatBox.scrollHeight;
+      count = count+1;
+
+      counter.textContent = `訊息數：${count}`;
     }
 
     document.getElementById('user-input').addEventListener('keypress', function(e) {
